@@ -44,7 +44,7 @@ function init() {
   // load the model
   const loader = new GLTFLoader();
   loader.load(
-    "668c31f7d77fc1238c9a7712.glb",
+    "https://cdn.jsdelivr.net/gh/mrdoob/three.js@master/examples/models/gltf/DamagedHelmet/glTF/DamagedHelmet.gltf",
     function (gltf) {
       scene.add(gltf.scene);
       render(); //render the scene for the first time
